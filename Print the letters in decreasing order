@@ -1,0 +1,10 @@
+1	w=input('please enter a string')
+2	def most_frequent(string):
+3	    d=dict()
+4	    for key in string:
+5	        if key not in d:
+6	            d[key] =1
+7	        else:
+8	            d[key] +=1
+9	            return d
+10	            print (most_frequent('Mississippi'))
